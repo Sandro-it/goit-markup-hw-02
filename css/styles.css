@@ -17,7 +17,8 @@ ul {list-style-type: none;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;;
+    color: #4D5AE5;
+    text-decoration: none;
 }
 .header-logo:hover, .header-logo:focus {
     color: #404bbf;
@@ -30,6 +31,7 @@ ul {list-style-type: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    text-decoration: none;
 }
 
 /*header-nav*/
@@ -41,6 +43,7 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    text-decoration: none;
 }
 .nav-link:hover, .nav-link:focus {
     
@@ -60,6 +63,7 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    text-decoration: none;
 }
 .address-link:hover,
 .address-link:focus {
@@ -208,7 +212,8 @@ ul {list-style-type: none;}
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;        
+        color: #4D5AE5;
+        text-decoration: none;
 }
 .span-footer-logo {
     font-family: Raleway, sans-serif;
@@ -225,4 +230,5 @@ ul {list-style-type: none;}
     font-weight: regular;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
