@@ -2,7 +2,7 @@
 
 body {
 background: #FFFFFF;
-color: var(--NAVY-BLUE, #2E2F42) ;
+color: #434455;
 font-family: Roboto, sans-serif;
 font-style: normal;
 text-decoration: none}
@@ -50,6 +50,7 @@ ul {list-style-type: none;}
 /*header-address*/
 
 .address-link {
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -72,7 +73,7 @@ ul {list-style-type: none;}
 .title-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;    
+    line-height: 1.07;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -92,6 +93,7 @@ ul {list-style-type: none;}
 
 .title-button:hover,
 .title-but:focus {
+    background-color: #404bbf;
     color: #404bbf;
 }
 .title-button {cursor:pointer;}
@@ -99,7 +101,12 @@ ul {list-style-type: none;}
 
 /*feature section*/
 
-.feature-title
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .feature-item {
     font-size: 20px;
@@ -134,11 +141,16 @@ ul {list-style-type: none;}
     color: #2E2F42;
 }
 
+.our-team-list {
+    background-color: #FFFFFF;
+}
+
 .our-team-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
 }
 
 .our-team-item-text {
@@ -169,6 +181,7 @@ ul {list-style-type: none;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .our-portfolio-item-text {
@@ -181,7 +194,7 @@ ul {list-style-type: none;}
 
 
 /*footer*/
-footer {background-color: #2E2F42;}
+.footer-item {background-color: #2E2F42;}
 .footer-logo {
     font-family: Raleway, sans-serif;
         font-size: 18px;
