@@ -109,7 +109,7 @@ ul {list-style-type: none;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .feature-item {
@@ -118,6 +118,7 @@ ul {list-style-type: none;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #2E2F42;
 }
 
 .feature-item-text {
